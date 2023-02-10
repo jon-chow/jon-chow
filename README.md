@@ -17,7 +17,7 @@
 <section align="center">
   <p align="center"> <img align="top" src="https://github-readme-stats.vercel.app/api?username=jon-chow&show_icons=true&theme=dark" alt="jon-chow" /> </p>
   <p align="center"> <img align="top" src="https://github-readme-streak-stats.herokuapp.com/?user=jon-chow&theme=dark" alt="jon-chow" /> </p>
-<!--   <p align="center"> <img align="top" src="https://github-readme-stats.vercel.app/api/top-langs?username=jon-chow&show_icons=true&theme=dark&layout=compact" alt="jon-chow" /> </p> -->
+  <p align="center"> <img align="top" src="https://github-readme-stats.vercel.app/api/top-langs?username=jon-chow&show_icons=true&theme=dark&layout=compact" alt="jon-chow" /> </p>
 </section>
 
 <h3 align="center">— Languages and Tools —</h3>
