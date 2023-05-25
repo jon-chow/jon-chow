@@ -2,7 +2,7 @@
 
 <section align="center">
   <p>
-    I'm in my <i> third year </i> of my Bachelor's pursuing a degree in <i> Computer Science </i> at the <i> University of British Columbia </i> in Vancouver, Canada. 🍁 <br />
+    I'm in my <i> third year </i> of my Bachelor's degree in <i> Computer Science </i> at the <i> University of British Columbia </i> in Vancouver, BC. 🍁 <br />
     🖥️ My main interest lies in full-stack web development using React frameworks. <br />
     However, I also have an interest in game development (in Unity), data science, and software engineering. 📊
   </p>
@@ -14,9 +14,29 @@
 </section>
 
 
+<!-- PROGRAMMING SUMMARY DETAILS -->
+<details>
+  <summary><h2>Summary Details</h2></summary>
+  <section align="center">
+    <a href="https://github.com/jon-chow">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jon-chow&theme=react" />
+    </a> <br />
+    <a href="https://github.com/jon-chow">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=jon-chow&hide_border=true&theme=react" />
+    </a> <br />
+    <a href="https://github.com/jon-chow">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jon-chow&theme=react" />
+    </a>
+    <a href="https://github.com/jon-chow">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jon-chow&langs_count=10&exclude_repo=&hide=jupyter%20notebook,vim%20script,cmake,makefile,batchfile,hlsl,shaderlab,emacs%20lisp,css,scss,html&layout=donut&hide_border=true&theme=react" />
+    </a>
+  </section>
+</details>
+
+
 <!-- TECHNOLOGY STACK -->
 <details>
-  <summary><h2>Tech Stack</h2></summary>
+  <summary><h2>Technology Stack</h2></summary>
   <h2 align="center">Languages</h2>
   <section align="center">
     <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
@@ -30,7 +50,7 @@
     <img src="https://img.shields.io/badge/LaTeX-47A141?style=for-the-badge&logo=LaTeX&logoColor=white" />
     <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
     <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-    <img src="" />
+<!--     <img src="" /> -->
   </section>
 
   <h2 align="center">Libraries & Frameworks</h2>
@@ -99,26 +119,6 @@
     <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
     <img src="https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue" />
     <img src="https://img.shields.io/badge/Inkscape-000000?style=for-the-badge&logo=Inkscape&logoColor=white" />
-  </section>
-</details>
-
-
-<!-- PROGRAMMING SUMMARY DETAILS -->
-<details>
-  <summary><h2>Summary Details</h2></summary>
-  <section align="center">
-    <a href="https://github.com/jon-chow">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jon-chow&theme=react" />
-    </a> <br />
-    <a href="https://github.com/jon-chow">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=jon-chow&hide_border=true&theme=react" />
-    </a> <br />
-    <a href="https://github.com/jon-chow">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jon-chow&theme=react" />
-    </a>
-    <a href="https://github.com/jon-chow">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jon-chow&langs_count=10&exclude_repo=&hide=jupyter%20notebook,vim%20script,cmake,makefile,batchfile,hlsl,shaderlab,emacs%20lisp,css,scss,html&layout=donut&hide_border=true&theme=react" />
-    </a>
   </section>
 </details>
 
