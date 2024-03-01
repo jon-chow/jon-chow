@@ -3,11 +3,10 @@ import sys
 import json
 from colored import Fore, Style
 
-print(f"{Fore.rgb(255, 200, 50)}Current working directory:", os.getcwd())
-
-content_json_file_path = os.getcwd() + "/scripts/content.json"
-base_readme_file_path = os.getcwd() + "/scripts/README.base.md"
-write_readme_file_path = os.getcwd() + "/README.md"
+cwd = os.getcwd()
+content_json_file_path = cwd + "/scripts/content.json"
+base_readme_file_path = cwd + "/scripts/README.base.md"
+write_readme_file_path = cwd + "/README.md"
 
 replace_string = "PYTHON_TECHNOLOGY_STACK" # search and replace this string in README.base.md
 readme_string = "" # Generated markdown string
@@ -23,7 +22,7 @@ def write_file(file_path, file_content):
 
 def build_markdown_item(item, iconSize, iconSource):
   return f"""
-<a href="{item["url"]}" title="{item["name"]}" target="_blank" rel="noreferrer">
+<a href="{item["url"]}" title="{item["name"]}">
   <img src="{iconSource}{item["icon"]}" height="{iconSize}" />
   {item["name"]}
 </a>"""
