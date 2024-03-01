@@ -185,67 +185,72 @@
     {
       "title": "tools-environments-workflow/",
       "items": [
-        {
-          "name": "Visual Studio Code",
-          "icon": "vscode/vscode-original.svg",
-          "url": "https://code.visualstudio.com/"
-        },
-        {
-          "name": "Visual Studio 2022",
-          "icon": "visualstudio/visualstudio-original.svg",
-          "url": "https://visualstudio.microsoft.com/"
-        },
-        {
-          "name": "IntelliJ IDEA",
-          "icon": "intellij/intellij-original.svg",
-          "url": "https://www.jetbrains.com/idea/"
-        },
-        {
-          "name": "Anaconda",
-          "icon": "anaconda/anaconda-original.svg",
-          "url": "https://www.anaconda.com/"
-        },
-        {
-          "name": "Git",
-          "icon": "git/git-original.svg",
-          "url": "https://git-scm.com/"
-        },
-        {
-          "name": "Windows OS",
-          "icon": "windows11/windows11-original.svg",
-          "url": "https://www.microsoft.com/en-us/windows/"
-        },
-        {
-          "name": "Linux OS",
-          "icon": "linux/linux-original.svg",
-          "url": "https://www.linux.org/"
-        },
-        {
-          "name": "Ubuntu",
-          "icon": "ubuntu/ubuntu-original.svg",
-          "url": "https://www.ubuntu.com/"
-        },
-        {
-          "name": "Unity",
-          "icon": "unity/unity-original.svg",
-          "url": "https://unity.com/"
-        },
-        {
-          "name": "Docker",
-          "icon": "docker/docker-plain.svg",
-          "url": "https://www.docker.com/"
-        },
-        {
-          "name": "Azure DevOps",
-          "icon": "azuredevops/azuredevops-original.svg",
-          "url": "https://docs.microsoft.com/en-us/azure/devops/"
-        },
-        {
-          "name": "Jira",
-          "icon": "jira/jira-original.svg",
-          "url": "https://www.atlassian.com/software/jira/"
-        }
-      ]
+				{
+					"name": "Visual Studio Code",
+					"icon": "vscode/vscode-original.svg",
+					"url": "https://code.visualstudio.com/"
+				},
+				{
+					"name": "Visual Studio 2022",
+					"icon": "visualstudio/visualstudio-original.svg",
+					"url": "https://visualstudio.microsoft.com/"
+				},
+				{
+					"name": "IntelliJ IDEA",
+					"icon": "intellij/intellij-original.svg",
+					"url": "https://www.jetbrains.com/idea/"
+				},
+				{
+					"name": "Anaconda",
+					"icon": "anaconda/anaconda-original.svg",
+					"url": "https://www.anaconda.com/"
+				},
+				{
+					"name": "Git",
+					"icon": "git/git-original.svg",
+					"url": "https://git-scm.com/"
+				},
+				{
+					"name": "GitHub Actions",
+					"icon": "githubactions/githubactions-original.svg",
+					"url": "https://github.com/features/actions/"
+				},
+				{
+					"name": "Windows OS",
+					"icon": "windows11/windows11-original.svg",
+					"url": "https://www.microsoft.com/en-us/windows/"
+				},
+				{
+					"name": "Linux OS",
+					"icon": "linux/linux-original.svg",
+					"url": "https://www.linux.org/"
+				},
+				{
+					"name": "Ubuntu",
+					"icon": "ubuntu/ubuntu-original.svg",
+					"url": "https://www.ubuntu.com/"
+				},
+				{
+					"name": "Unity",
+					"icon": "unity/unity-original.svg",
+					"url": "https://unity.com/"
+				},
+				{
+					"name": "Docker",
+					"icon": "docker/docker-plain.svg",
+					"url": "https://www.docker.com/"
+				},
+				{
+					"name": "Azure DevOps",
+					"icon": "azuredevops/azuredevops-original.svg",
+					"url": "https://docs.microsoft.com/en-us/azure/devops/"
+				},
+				{
+					"name": "Jira",
+					"icon": "jira/jira-original.svg",
+					"url": "https://www.atlassian.com/software/jira/"
+				}
+			]
     },
     {
       "title": "graphics-design/",
