@@ -44,7 +44,8 @@ def generate_readme_string():
 
 # Main
 def main(args):
-  args = args[1:]
+  global write_readme_file_path
+  write_readme_file_path = args[1:][0] if len(args[1:]) > 0 else "../README.md"
   print(f"{Fore.rgb(0, 200, 255)}Generating README file...")
   generate_readme_string()
   readme = read_file(base_readme_file_path)

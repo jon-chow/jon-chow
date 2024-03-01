@@ -1,0 +1,27 @@
+name: readme-updater
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/content.json'
+
+jobs:
+  run_generator:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      - run: pip install -r scripts/requirements.txt
+      - run: python scripts/readme_generator.py
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update README
+          file_pattern: README.md
+          commit_options: '--signoff'
+          push_options: '--force'
