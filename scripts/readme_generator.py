@@ -1,10 +1,13 @@
+import os
 import sys
 import json
 from colored import Fore, Style
 
-content_json_file_path = "content.json"
-base_readme_file_path = "README.base.md"
-write_readme_file_path = "../README.md"
+print(f"{Fore.rgb(255, 200, 50)}Current working directory:", os.getcwd())
+
+content_json_file_path = os.getcwd() + "/scripts/content.json"
+base_readme_file_path = os.getcwd() + "/scripts/README.base.md"
+write_readme_file_path = os.getcwd() + "/README.md"
 
 replace_string = "PYTHON_TECHNOLOGY_STACK" # search and replace this string in README.base.md
 readme_string = "" # Generated markdown string

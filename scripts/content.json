@@ -1,190 +1,190 @@
 {
-  "iconSize": "25px",
-  "iconSource": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/",
-  "technologies": [
-    {
-      "title": "languages/",
-      "items": [
-        {
-          "name": "JavaScript",
-          "icon": "javascript/javascript-original.svg",
-          "url": "https://www.javascript.com/"
-        },
-        {
-          "name": "TypeScript",
-          "icon": "typescript/typescript-original.svg",
-          "url": "https://www.typescriptlang.org/"
-        },
-        {
-          "name": "Python",
-          "icon": "python/python-original.svg",
-          "url": "https://www.python.org/"
-        },
-        {
-          "name": "C#",
-          "icon": "csharp/csharp-original.svg",
-          "url": "https://docs.microsoft.com/en-us/dotnet/csharp/"
-        },
-        {
-          "name": "Java",
-          "icon": "java/java-original.svg",
-          "url": "https://www.java.com/"
-        },
-        {
-          "name": "CSS",
-          "icon": "css3/css3-original.svg",
-          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
-        },
-        {
-          "name": "HTML",
-          "icon": "html5/html5-original.svg",
-          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
-        }
-      ]
-    },
-    {
-      "title": "libraries-frameworks/",
-      "items": [
-        {
-          "name": "Node",
-          "icon": "nodejs/nodejs-original.svg",
-          "url": "https://nodejs.org/"
-        },
-        {
-          "name": "Express",
-          "icon": "express/express-original.svg",
-          "url": "https://expressjs.com/"
-        },
-        {
-          "name": "jQuery",
-          "icon": "jquery/jquery-original.svg",
-          "url": "https://jquery.com/"
-        },
-        {
-          "name": "React",
-          "icon": "react/react-original.svg",
-          "url": "https://react.dev/"
-        },
-        {
-          "name": "Three",
-          "icon": "threejs/threejs-original.svg",
-          "url": "https://threejs.org/"
-        },
-        {
-          "name": ".NET",
-          "icon": "dotnetcore/dotnetcore-original.svg",
-          "url": "https://docs.microsoft.com/en-us/dotnet/"
-        },
-        {
-          "name": "Spring Boot",
-          "icon": "spring/spring-original.svg",
-          "url": "https://spring.io/"
-        },
-        {
-          "name": "Mongoose",
-          "icon": "mongoose/mongoose-original.svg",
-          "url": "https://mongoosejs.com/"
-        },
-        {
-          "name": "Storybook",
-          "icon": "storybook/storybook-original.svg",
-          "url": "https://storybook.js.org/"
-        },
-        {
-          "name": "TailwindCSS",
-          "icon": "tailwindcss/tailwindcss-original.svg",
-          "url": "https://tailwindcss.com/"
-        },
-        {
-          "name": "Sass",
-          "icon": "sass/sass-original.svg",
-          "url": "https://sass-lang.com/"
-        }
-      ]
-    },
-    {
-      "title": "databases-querying/",
-      "items": [
-        {
-          "name": "SQL Server",
-          "icon": "microsoftsqlserver/microsoftsqlserver-original.svg",
-          "url": "https://www.microsoft.com/en-ca/sql-server/"
-        },
-        {
-          "name": "MySQL",
-          "icon": "mysql/mysql-original.svg",
-          "url": "https://www.mysql.com/"
-        },
-        {
-          "name": "MariaDB",
-          "icon": "mariadb/mariadb-original.svg",
-          "url": "https://mariadb.org/"
-        },
-        {
-          "name": "SQL Developer",
-          "icon": "sqldeveloper/sqldeveloper-original.svg",
-          "url": "https://www.oracle.com/database/sqldeveloper/"
-        },
-        {
-          "name": "Redis",
-          "icon": "redis/redis-original.svg",
-          "url": "https://redis.io/"
-        },
-        {
-          "name": "Firebase",
-          "icon": "firebase/firebase-original.svg",
-          "url": "https://firebase.google.com/"
-        },
-        {
-          "name": "MongoDB",
-          "icon": "mongodb/mongodb-original.svg",
-          "url": "https://www.mongodb.com/"
-        }
-      ]
-    },
-    {
-      "title": "testing-debugging/",
-      "items": [
-        {
-          "name": "Cypress",
-          "icon": "cypressio/cypressio-original.svg",
-          "url": "https://www.cypress.io/"
-        },
-        {
-          "name": "Jest",
-          "icon": "jest/jest-plain.svg",
-          "url": "https://jestjs.io/"
-        },
-        {
-          "name": "JUnit",
-          "icon": "junit/junit-original.svg",
-          "url": "https://junit.org/"
-        },
-        {
-          "name": "Selenium",
-          "icon": "selenium/selenium-original.svg",
-          "url": "https://www.selenium.dev/"
-        },
-        {
-          "name": "BrowserStack",
-          "icon": "browserstack/browserstack-original.svg",
-          "url": "https://www.browserstack.com/"
-        },
-        {
-          "name": "JMeter",
-          "icon": "apache/apache-original.svg",
-          "url": "https://jmeter.apache.org/"
-        },
-        {
-          "name": "Postman",
-          "icon": "postman/postman-original.svg",
-          "url": "https://www.postman.com/"
-        }
-      ]
-    },
-    {
-      "title": "tools-environments-workflow/",
-      "items": [
+	"iconSize": "20px",
+	"iconSource": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/",
+	"technologies": [
+		{
+			"title": "languages/",
+			"items": [
+				{
+					"name": "JavaScript",
+					"icon": "javascript/javascript-original.svg",
+					"url": "https://www.javascript.com/"
+				},
+				{
+					"name": "TypeScript",
+					"icon": "typescript/typescript-original.svg",
+					"url": "https://www.typescriptlang.org/"
+				},
+				{
+					"name": "Python",
+					"icon": "python/python-original.svg",
+					"url": "https://www.python.org/"
+				},
+				{
+					"name": "C#",
+					"icon": "csharp/csharp-original.svg",
+					"url": "https://docs.microsoft.com/en-us/dotnet/csharp/"
+				},
+				{
+					"name": "Java",
+					"icon": "java/java-original.svg",
+					"url": "https://www.java.com/"
+				},
+				{
+					"name": "CSS",
+					"icon": "css3/css3-original.svg",
+					"url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+				},
+				{
+					"name": "HTML",
+					"icon": "html5/html5-original.svg",
+					"url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+				}
+			]
+		},
+		{
+			"title": "libraries-frameworks/",
+			"items": [
+				{
+					"name": "Node",
+					"icon": "nodejs/nodejs-original.svg",
+					"url": "https://nodejs.org/"
+				},
+				{
+					"name": "Express",
+					"icon": "express/express-original.svg",
+					"url": "https://expressjs.com/"
+				},
+				{
+					"name": "jQuery",
+					"icon": "jquery/jquery-original.svg",
+					"url": "https://jquery.com/"
+				},
+				{
+					"name": "React",
+					"icon": "react/react-original.svg",
+					"url": "https://react.dev/"
+				},
+				{
+					"name": "Three",
+					"icon": "threejs/threejs-original.svg",
+					"url": "https://threejs.org/"
+				},
+				{
+					"name": ".NET",
+					"icon": "dotnetcore/dotnetcore-original.svg",
+					"url": "https://docs.microsoft.com/en-us/dotnet/"
+				},
+				{
+					"name": "Spring Boot",
+					"icon": "spring/spring-original.svg",
+					"url": "https://spring.io/"
+				},
+				{
+					"name": "Mongoose",
+					"icon": "mongoose/mongoose-original.svg",
+					"url": "https://mongoosejs.com/"
+				},
+				{
+					"name": "Storybook",
+					"icon": "storybook/storybook-original.svg",
+					"url": "https://storybook.js.org/"
+				},
+				{
+					"name": "TailwindCSS",
+					"icon": "tailwindcss/tailwindcss-original.svg",
+					"url": "https://tailwindcss.com/"
+				},
+				{
+					"name": "Sass",
+					"icon": "sass/sass-original.svg",
+					"url": "https://sass-lang.com/"
+				}
+			]
+		},
+		{
+			"title": "databases-querying/",
+			"items": [
+				{
+					"name": "SQL Server",
+					"icon": "microsoftsqlserver/microsoftsqlserver-original.svg",
+					"url": "https://www.microsoft.com/en-ca/sql-server/"
+				},
+				{
+					"name": "MySQL",
+					"icon": "mysql/mysql-original.svg",
+					"url": "https://www.mysql.com/"
+				},
+				{
+					"name": "MariaDB",
+					"icon": "mariadb/mariadb-original.svg",
+					"url": "https://mariadb.org/"
+				},
+				{
+					"name": "SQL Developer",
+					"icon": "sqldeveloper/sqldeveloper-original.svg",
+					"url": "https://www.oracle.com/database/sqldeveloper/"
+				},
+				{
+					"name": "Redis",
+					"icon": "redis/redis-original.svg",
+					"url": "https://redis.io/"
+				},
+				{
+					"name": "Firebase",
+					"icon": "firebase/firebase-original.svg",
+					"url": "https://firebase.google.com/"
+				},
+				{
+					"name": "MongoDB",
+					"icon": "mongodb/mongodb-original.svg",
+					"url": "https://www.mongodb.com/"
+				}
+			]
+		},
+		{
+			"title": "testing-debugging/",
+			"items": [
+				{
+					"name": "Cypress",
+					"icon": "cypressio/cypressio-original.svg",
+					"url": "https://www.cypress.io/"
+				},
+				{
+					"name": "Jest",
+					"icon": "jest/jest-plain.svg",
+					"url": "https://jestjs.io/"
+				},
+				{
+					"name": "JUnit",
+					"icon": "junit/junit-original.svg",
+					"url": "https://junit.org/"
+				},
+				{
+					"name": "Selenium",
+					"icon": "selenium/selenium-original.svg",
+					"url": "https://www.selenium.dev/"
+				},
+				{
+					"name": "BrowserStack",
+					"icon": "browserstack/browserstack-original.svg",
+					"url": "https://www.browserstack.com/"
+				},
+				{
+					"name": "JMeter",
+					"icon": "apache/apache-original.svg",
+					"url": "https://jmeter.apache.org/"
+				},
+				{
+					"name": "Postman",
+					"icon": "postman/postman-original.svg",
+					"url": "https://www.postman.com/"
+				}
+			]
+		},
+		{
+			"title": "tools-environments-workflow/",
+			"items": [
 				{
 					"name": "Visual Studio Code",
 					"icon": "vscode/vscode-original.svg",
@@ -251,31 +251,31 @@
 					"url": "https://www.atlassian.com/software/jira/"
 				}
 			]
-    },
-    {
-      "title": "graphics-design/",
-      "items": [
-        {
-          "name": "Inkscape",
-          "icon": "inkscape/inkscape-original.svg",
-          "url": "https://inkscape.org/"
-        },
-        {
-          "name": "Figma",
-          "icon": "figma/figma-original.svg",
-          "url": "https://www.figma.com/"
-        },
-        {
-          "name": "Canva",
-          "icon": "canva/canva-original.svg",
-          "url": "https://www.canva.com/"
-        },
-        {
-          "name": "Blender",
-          "icon": "blender/blender-original.svg",
-          "url": "https://www.blender.org/"
-        }
-      ]
-    }
-  ]
+		},
+		{
+			"title": "graphics-design/",
+			"items": [
+				{
+					"name": "Inkscape",
+					"icon": "inkscape/inkscape-original.svg",
+					"url": "https://inkscape.org/"
+				},
+				{
+					"name": "Figma",
+					"icon": "figma/figma-original.svg",
+					"url": "https://www.figma.com/"
+				},
+				{
+					"name": "Canva",
+					"icon": "canva/canva-original.svg",
+					"url": "https://www.canva.com/"
+				},
+				{
+					"name": "Blender",
+					"icon": "blender/blender-original.svg",
+					"url": "https://www.blender.org/"
+				}
+			]
+		}
+	]
 }

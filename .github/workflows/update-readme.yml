@@ -5,23 +5,29 @@ on:
     branches:
       - main
     paths:
-      - 'scripts/content.json'
+      - 'scripts/**'
+  workflow_dispatch:
 
 jobs:
   run_generator:
     runs-on: ubuntu-latest
     
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
           cache: 'pip'
-      - run: pip install -r scripts/requirements.txt
-      - name: Run generator
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Check working directory
         run: |
-          var=$(python scripts/readme_generator.py)
-          echo $var
+          pwd
+          ls
+      - name: Run generator
+        run: python scripts/readme_generator.py
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Update README
