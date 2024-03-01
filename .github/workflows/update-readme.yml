@@ -18,7 +18,10 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
       - run: pip install -r scripts/requirements.txt
-      - run: python scripts/readme_generator.py
+      - name: Run generator
+        run: |
+          var=$(python scripts/readme_generator.py)
+          echo $var
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Update README

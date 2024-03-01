@@ -2,8 +2,8 @@ import sys
 import json
 from colored import Fore, Style
 
-content_json_file_path = "./content.json"
-base_readme_file_path = "./README.base.md"
+content_json_file_path = "content.json"
+base_readme_file_path = "README.base.md"
 write_readme_file_path = "../README.md"
 
 replace_string = "PYTHON_TECHNOLOGY_STACK" # search and replace this string in README.base.md
@@ -45,7 +45,8 @@ def generate_readme_string():
 # Main
 def main(args):
   global write_readme_file_path
-  write_readme_file_path = args[1:][0] if len(args[1:]) > 0 else "../README.md"
+  if len(args[1:]) > 0:
+    write_readme_file_path = args[1:][0]
   print(f"{Fore.rgb(0, 200, 255)}Generating README file...")
   generate_readme_string()
   readme = read_file(base_readme_file_path)
